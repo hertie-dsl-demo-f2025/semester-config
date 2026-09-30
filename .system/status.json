@@ -6,7 +6,7 @@
     "instructors.yml": "d55119f022a5812d287fae6f82c14c5e473cde21",
     "students.csv": "b88a2b57b4011521ab5a25bfb8734a3f64a976cf",
     "teams.csv": "55074c573b38d4676c1118461bc00b171270796b",
-    "grading_sheets": "4d7a87840f138b27b39eebb34cf1c5449c3f84e3",
+    "grading_sheets": "63ce93fb9a3a36cde7d8233f7bb4b0685e7697ac",
     "course/dsl-course.yml": "296e054e30d8ee0978ac4e0b70e1740c622577ad",
     ".system/assignments.lock.yml": "b9570091bea5546183fcfae00ccb8caea1ee09f0"
   },
@@ -384,10 +384,10 @@
       "solution_shown": null,
       "solution_held_until": null,
       "units": 1,
-      "submissions": 0,
+      "submissions": 1,
       "teams": null,
       "marks": {
-        "filled": 0,
+        "filled": 1,
         "total": 1
       },
       "returned": false,
@@ -430,10 +430,10 @@
       "solution_shown": null,
       "solution_held_until": null,
       "units": 1,
-      "submissions": 0,
+      "submissions": 1,
       "teams": null,
       "marks": {
-        "filled": 0,
+        "filled": 1,
         "total": 1
       },
       "returned": false,
@@ -476,10 +476,10 @@
       "solution_shown": null,
       "solution_held_until": null,
       "units": 1,
-      "submissions": 0,
+      "submissions": 1,
       "teams": 1,
       "marks": {
-        "filled": 0,
+        "filled": 1,
         "total": 1
       },
       "returned": false,
@@ -527,5 +527,13 @@
     "last_update": "2026-09-30T10:09:45+00:00",
     "stale": false
   },
-  "operations": []
+  "operations": [
+    {
+      "run_id": 36700999769,
+      "op": "grades.return",
+      "conclusion": "previewed",
+      "summary": "Preview: 1 marks repo would be updated and 1 email sent.",
+      "finished": "2026-09-30T10:12:58Z"
+    }
+  ]
 }
