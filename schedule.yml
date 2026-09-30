@@ -12,6 +12,12 @@ semester_end: 2025-12-19
 # ------------------------------------------------------------------------------ releases
 releases:
 
+  syllabus:
+    event_datetime: 2025-09-01T09:00
+    deploy:
+      - course_source_repo: course-materials-f2025
+        course_source_path: SYLLABUS.pdf
+
   session-01:
     event_datetime: 2025-09-09T10:00
     deploy:
@@ -110,6 +116,35 @@ releases:
 # nobody has claimed a roster row in this demonstration cohort - so a scheduled handout
 # would fail every hour with "no onboarded enrolled students". The sibling cohort
 # hertie-dsl-demo-f2026 shows the full assignment lifecycle instead.
+
+# --------------------------------------------------------------------------- assignments
+assignments:
+
+  assignment-1:
+    course_source_repo: assignment-1-f2025
+    handout_datetime: 2025-09-23T14:00
+    due_datetime: 2027-08-01T23:59
+
+  assignment-2:
+    course_source_repo: assignment-2-f2025
+    handout_datetime: 2025-10-21T14:00
+    due_datetime: 2027-08-01T23:59
+
+  assignment-3:
+    course_source_repo: assignment-3-f2025
+    handout_datetime: 2025-10-28T14:00
+    due_datetime: 2027-08-01T23:59
+
+# -------------------------------------------------------------------------------- events
+events:
+
+  midterm-exam:
+    kind: exam
+    event_datetime: 2025-10-28T10:00
+
+  final-exam:
+    kind: exam
+    event_datetime: 2025-12-16T10:00
 
 # ------------------------------------------------------------------------------- archive
 # archive the org (freezes in place): removes all write permissions, retains all read permissions
