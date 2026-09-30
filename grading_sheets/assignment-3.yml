@@ -3,8 +3,8 @@
 #
 # From grading_config.yml / schedule.yml (edit THERE, not here):
 #   group assignment · 50 points (Report 20, Code 20, Presentation 10) · autograde on
-#   due Sun 1 Aug 2027 23:59 · late work to Wed 11 Aug 2027 23:59 at 10%/day
-# Status: OPEN - 0 of 1 teams have submitted
+#   due Tue 9 Dec 2025 23:59 · late work to Fri 19 Dec 2025 23:59 at 10%/day
+# Status: FROZEN Fri 19 Dec 2025 23:59
 #
 # Auto-filled by the toolkit (you never type these): every `info:` block. `submitted` and
 # `days_late` fill at the due date and refresh after each late push; `contributions` is read
@@ -19,10 +19,14 @@
 teams:
   team-alpha:
     info:                       # toolkit-owned, shown for information only - nothing is declared here
-      submitted:
-      days_late:
-      contributions:
-      autograde:
+      submitted: 2025-12-08T18:05+01:00
+      days_late: 0
+      contributions: |
+        # Contributions
+
+        Report, code and slides: one member.
+      autograde: 0/7
+      checked: 2026-09-30T12:11+02:00
     feedback_group:
     members:
       test-user-dsl:
