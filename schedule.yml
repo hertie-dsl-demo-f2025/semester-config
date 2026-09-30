@@ -123,17 +123,17 @@ assignments:
   assignment-1:
     course_source_repo: assignment-1-f2025
     handout_datetime: 2025-09-23T14:00
-    due_datetime: 2027-08-01T23:59
+    due_datetime: 2025-10-14T23:59
 
   assignment-2:
     course_source_repo: assignment-2-f2025
     handout_datetime: 2025-10-21T14:00
-    due_datetime: 2027-08-01T23:59
+    due_datetime: 2025-11-11T23:59
 
   assignment-3:
     course_source_repo: assignment-3-f2025
     handout_datetime: 2025-10-28T14:00
-    due_datetime: 2027-08-01T23:59
+    due_datetime: 2025-12-09T23:59
 
 # -------------------------------------------------------------------------------- events
 events:
