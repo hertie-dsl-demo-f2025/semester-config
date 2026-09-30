@@ -1,14 +1,14 @@
 {
   "schema": "dsl.status/1",
   "inputs": {
-    "schedule.yml": "d45558ab610ccb5fc3da2003524d608b4baac624",
+    "schedule.yml": "a73dd85c8206eea4d733d0178e9fd88f922c4509",
     "assignments.yml": "2b83ad40f234ad42d02a0d5b5bb73a5945e889ec",
     "instructors.yml": "d55119f022a5812d287fae6f82c14c5e473cde21",
     "students.csv": "b88a2b57b4011521ab5a25bfb8734a3f64a976cf",
-    "teams.csv": "2fcac797b5d59979ab905dafcc84e341cfe5306c",
+    "teams.csv": "55074c573b38d4676c1118461bc00b171270796b",
     "grading_sheets": null,
     "course/dsl-course.yml": "296e054e30d8ee0978ac4e0b70e1740c622577ad",
-    ".system/assignments.lock.yml": "9be2534b6a540ebaa7c4b8b7991718d0f1cf3971"
+    ".system/assignments.lock.yml": "dc63708829a478afa9ca8d95c06a47cf7196ce98"
   },
   "course": {
     "org": "hertie-dsl-demo-course-e1234",
@@ -25,7 +25,7 @@
     },
     "stage_why": {
       "C4": "course-materials-f2025 has no SYLLABUS.md yet.",
-      "C5": "2 assignment templates are not ready yet; the first: assignment-3-f2025's README.md is still the placeholder."
+      "C5": "assignment-8-f2026's README.md is still the placeholder."
     },
     "ready": true,
     "materials": [
@@ -62,7 +62,7 @@
       {
         "repo": "assignment-3-f2025",
         "slug": "assignment-3-f2025",
-        "state": "todo"
+        "state": "ready"
       },
       {
         "repo": "assignment-3-project-f2026",
@@ -131,6 +131,26 @@
   "problems": [],
   "this_week": [],
   "releases": [
+    {
+      "id": "syllabus",
+      "when": "2025-09-01T09:00:00+02:00",
+      "kind": "lecture",
+      "kind_inferred": true,
+      "number": 1,
+      "title": "",
+      "state": "late",
+      "source": {
+        "repo": "course-materials-f2025",
+        "path": "SYLLABUS.pdf"
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "SYLLABUS.pdf"
+      },
+      "copies": 1,
+      "show_on_site": true,
+      "tbc": false
+    },
     {
       "id": "session-01",
       "when": "2025-09-09T10:00:00+02:00",
@@ -352,7 +372,146 @@
       "tbc": false
     }
   ],
-  "assignments": [],
+  "assignments": [
+    {
+      "slug": "assignment-1",
+      "title": "Linear regression from scratch",
+      "template": "assignment-1-f2025",
+      "state": "declared",
+      "handout": "2025-09-23T14:00:00+02:00",
+      "due": "2027-08-01T23:59:00+02:00",
+      "grading_cutoff_datetime": "2027-08-11T23:59:00+02:00",
+      "solution_shown": null,
+      "solution_held_until": null,
+      "units": 0,
+      "submissions": null,
+      "teams": null,
+      "marks": {
+        "filled": 0,
+        "total": 0
+      },
+      "returned": false,
+      "problem": false,
+      "settings": {
+        "team_formation": {
+          "value": "self_select",
+          "source": "institution"
+        },
+        "max_team_size": {
+          "value": 4,
+          "source": "course"
+        },
+        "late_window_days": {
+          "value": 10,
+          "source": "course"
+        },
+        "late_penalty_per_day": {
+          "value": "10%",
+          "source": "course"
+        },
+        "visibility": {
+          "value": "private",
+          "source": "institution"
+        },
+        "submit_url": {
+          "value": "",
+          "source": "institution"
+        }
+      }
+    },
+    {
+      "slug": "assignment-2",
+      "title": "Hackathon showcase",
+      "template": "assignment-2-f2025",
+      "state": "declared",
+      "handout": "2025-10-21T14:00:00+02:00",
+      "due": "2027-08-01T23:59:00+02:00",
+      "grading_cutoff_datetime": "2027-08-11T23:59:00+02:00",
+      "solution_shown": null,
+      "solution_held_until": null,
+      "units": 0,
+      "submissions": null,
+      "teams": null,
+      "marks": {
+        "filled": 0,
+        "total": 0
+      },
+      "returned": false,
+      "problem": false,
+      "settings": {
+        "team_formation": {
+          "value": "self_select",
+          "source": "institution"
+        },
+        "max_team_size": {
+          "value": 4,
+          "source": "course"
+        },
+        "late_window_days": {
+          "value": 10,
+          "source": "course"
+        },
+        "late_penalty_per_day": {
+          "value": "10%",
+          "source": "course"
+        },
+        "visibility": {
+          "value": "private",
+          "source": "institution"
+        },
+        "submit_url": {
+          "value": "",
+          "source": "institution"
+        }
+      }
+    },
+    {
+      "slug": "assignment-3",
+      "title": "Group project",
+      "template": "assignment-3-f2025",
+      "state": "teams_forming",
+      "handout": "2025-10-28T14:00:00+01:00",
+      "due": "2027-08-01T23:59:00+02:00",
+      "grading_cutoff_datetime": "2027-08-11T23:59:00+02:00",
+      "solution_shown": null,
+      "solution_held_until": null,
+      "units": 0,
+      "submissions": null,
+      "teams": 1,
+      "marks": {
+        "filled": 0,
+        "total": 0
+      },
+      "returned": false,
+      "problem": false,
+      "settings": {
+        "team_formation": {
+          "value": "self_select",
+          "source": "institution"
+        },
+        "max_team_size": {
+          "value": 4,
+          "source": "course"
+        },
+        "late_window_days": {
+          "value": 10,
+          "source": "course"
+        },
+        "late_penalty_per_day": {
+          "value": "10%",
+          "source": "course"
+        },
+        "visibility": {
+          "value": "private",
+          "source": "institution"
+        },
+        "submit_url": {
+          "value": "",
+          "source": "institution"
+        }
+      }
+    }
+  ],
   "students": {
     "rows": 4,
     "codes_sent": 3,
@@ -365,7 +524,7 @@
   },
   "site": {
     "url": "https://hertie-dsl-demo-f2025.github.io",
-    "last_update": "2026-09-26T08:53:07+00:00",
+    "last_update": "2026-09-30T10:05:29+00:00",
     "stale": false
   },
   "operations": []
