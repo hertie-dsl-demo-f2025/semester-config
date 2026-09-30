@@ -22,6 +22,7 @@ submissions:
       autograde: 10/10
       checked: 2026-09-30T12:10+02:00
     adjustment_individual:
-    feedback_individual:
+    feedback_individual: |
+      Clear structure and a careful evaluation; the discussion of limitations could go further.
     notes_not_shared_with_students:
-    score_individual:
+    score_individual: 76
