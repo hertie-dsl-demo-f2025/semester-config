@@ -1,7 +1,7 @@
 {
   "schema": "dsl.status/1",
   "inputs": {
-    "schedule.yml": "d9ad6862db3a6dce128b2c8495d0dc840aa15719",
+    "schedule.yml": "c7788c9e6e256a34c1529695e83fc883132639cb",
     "assignments.yml": "2b83ad40f234ad42d02a0d5b5bb73a5945e889ec",
     "instructors.yml": "d55119f022a5812d287fae6f82c14c5e473cde21",
     "students.csv": "b88a2b57b4011521ab5a25bfb8734a3f64a976cf",
@@ -131,17 +131,17 @@
   },
   "problems": [
     {
-      "id": "number:lecture:syllabus",
+      "id": "number:lecture:1",
       "scope": "semester",
       "stage": "K4",
-      "text": "Give syllabus a number.",
-      "stops": "Its rows show no number until then.",
+      "text": "Two lectures are numbered 1: syllabus, session-01.",
+      "stops": "Students see the same number more than once.",
       "fix": {
         "repo": "hertie-dsl-demo-f2025/semester-config",
         "path": "schedule.yml",
-        "line": 16,
+        "line": 23,
         "screen": "schedule",
-        "entry": "syllabus"
+        "entry": "session-01"
       }
     }
   ],
@@ -152,7 +152,7 @@
       "when": "2025-09-01T09:00:00+02:00",
       "kind": "lecture",
       "kind_inferred": true,
-      "number": null,
+      "number": 1,
       "title": "",
       "state": "released",
       "source": {
@@ -544,7 +544,7 @@
   "site": {
     "url": "https://hertie-dsl-demo-f2025.github.io",
     "last_update": "2026-09-30T10:09:45+00:00",
-    "stale": false
+    "stale": true
   },
   "operations": [
     {
