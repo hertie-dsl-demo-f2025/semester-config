@@ -1,0 +1,34 @@
+# -------------------------------------------------------------------------------------------
+# GRADING SHEET · assignment-2 · Hackathon showcase · INSTRUCTOR-OWNED
+#
+# From grading_config.yml / schedule.yml (edit THERE, not here):
+#   individual assignment · 100 points (Prototype 40, Demo 30, Writeup 30) · autograde off
+#   due Sun 1 Aug 2027 23:59 · late work to Wed 11 Aug 2027 23:59 at 10%/day
+# Status: OPEN - 0 of 1 students have submitted
+#
+# Auto-filled by the toolkit (you never type these): every `info:` block. `submitted` and
+# `days_late` fill at the due date and refresh after each late push. All of them freeze at the
+# late cutoff.
+# You fill in: adjustment_individual, feedback_individual, notes_not_shared_with_students,
+# score_individual (one value per question; max points shown beside each),
+# feedback_per_question (optional, one per question). Anything you type is never touched.
+# Nothing reaches a student until you run Distribute grades. YAML comments you add are not
+# preserved when the toolkit rewrites the file.
+# -------------------------------------------------------------------------------------------
+submissions:
+  test-user-dsl:
+    info:                       # toolkit-owned, shown for information only - nothing is declared here
+      submitted:
+      days_late:
+      completion:
+    adjustment_individual:
+    feedback_individual:
+    notes_not_shared_with_students:
+    score_individual:           # yours: the question names and maxima come from grading_config.yml
+      Prototype:                # /40
+      Demo:                     # /30
+      Writeup:                  # /30
+    feedback_per_question:
+      Prototype:
+      Demo:
+      Writeup:
