@@ -27,17 +27,18 @@ teams:
         Report, code and slides: one member.
       autograde: 0/7
       checked: 2026-09-30T12:11+02:00
-    feedback_group:
+    feedback_group: |
+      Clear structure and a careful evaluation; the discussion of limitations could go further.
     members:
       test-user-dsl:
-        adjustment_individual:
+        adjustment_individual: 2
         feedback_individual:
         notes_not_shared_with_students:
     score_group:                # yours: the question names and maxima come from grading_config.yml
-      Report:                   # /20
-      Code:                     # /20
-      Presentation:             # /10
+      Report: 17                # /20
+      Code: 14                  # /20
+      Presentation: 8           # /10
     feedback_per_question:
-      Report:
-      Code:
-      Presentation:
+      Report: 'Report: correct approach; tighten the write-up.'
+      Code: 'Code: correct approach; tighten the write-up.'
+      Presentation: 'Presentation: correct approach; tighten the write-up.'
