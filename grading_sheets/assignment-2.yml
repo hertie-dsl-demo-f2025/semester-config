@@ -3,8 +3,8 @@
 #
 # From grading_config.yml / schedule.yml (edit THERE, not here):
 #   individual assignment · 100 points (Prototype 40, Demo 30, Writeup 30) · autograde off
-#   due Sun 1 Aug 2027 23:59 · late work to Wed 11 Aug 2027 23:59 at 10%/day
-# Status: OPEN - 0 of 1 students have submitted
+#   due Tue 11 Nov 2025 23:59 · late work to Fri 21 Nov 2025 23:59 at 10%/day
+# Status: FROZEN Fri 21 Nov 2025 23:59
 #
 # Auto-filled by the toolkit (you never type these): every `info:` block. `submitted` and
 # `days_late` fill at the due date and refresh after each late push. All of them freeze at the
@@ -18,9 +18,10 @@
 submissions:
   test-user-dsl:
     info:                       # toolkit-owned, shown for information only - nothing is declared here
-      submitted:
-      days_late:
-      completion:
+      submitted: 2025-11-13T10:15+01:00
+      days_late: 2
+      completion: ran-clean
+      checked: 2026-09-30T12:11+02:00
     adjustment_individual:
     feedback_individual:
     notes_not_shared_with_students:
