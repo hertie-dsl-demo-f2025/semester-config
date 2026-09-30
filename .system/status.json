@@ -6,7 +6,7 @@
     "instructors.yml": "d55119f022a5812d287fae6f82c14c5e473cde21",
     "students.csv": "b88a2b57b4011521ab5a25bfb8734a3f64a976cf",
     "teams.csv": "55074c573b38d4676c1118461bc00b171270796b",
-    "grading_sheets": null,
+    "grading_sheets": "4f3fd23cfafc81aaffcf000bc28c439f6ac438d7",
     "course/dsl-course.yml": "296e054e30d8ee0978ac4e0b70e1740c622577ad",
     ".system/assignments.lock.yml": "dc63708829a478afa9ca8d95c06a47cf7196ce98"
   },
@@ -138,7 +138,7 @@
       "kind_inferred": true,
       "number": 1,
       "title": "",
-      "state": "late",
+      "state": "released",
       "source": {
         "repo": "course-materials-f2025",
         "path": "SYLLABUS.pdf"
@@ -377,18 +377,18 @@
       "slug": "assignment-1",
       "title": "Linear regression from scratch",
       "template": "assignment-1-f2025",
-      "state": "declared",
+      "state": "open",
       "handout": "2025-09-23T14:00:00+02:00",
       "due": "2027-08-01T23:59:00+02:00",
       "grading_cutoff_datetime": "2027-08-11T23:59:00+02:00",
       "solution_shown": null,
       "solution_held_until": null,
-      "units": 0,
-      "submissions": null,
+      "units": 1,
+      "submissions": 0,
       "teams": null,
       "marks": {
         "filled": 0,
-        "total": 0
+        "total": 1
       },
       "returned": false,
       "problem": false,
@@ -524,7 +524,7 @@
   },
   "site": {
     "url": "https://hertie-dsl-demo-f2025.github.io",
-    "last_update": "2026-09-30T10:05:29+00:00",
+    "last_update": "2026-09-30T10:06:12+00:00",
     "stale": false
   },
   "operations": []
