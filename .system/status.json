@@ -1,14 +1,14 @@
 {
   "schema": "dsl.status/1",
   "inputs": {
-    "schedule.yml": "a73dd85c8206eea4d733d0178e9fd88f922c4509",
+    "schedule.yml": "d9ad6862db3a6dce128b2c8495d0dc840aa15719",
     "assignments.yml": "2b83ad40f234ad42d02a0d5b5bb73a5945e889ec",
     "instructors.yml": "d55119f022a5812d287fae6f82c14c5e473cde21",
     "students.csv": "b88a2b57b4011521ab5a25bfb8734a3f64a976cf",
     "teams.csv": "55074c573b38d4676c1118461bc00b171270796b",
     "grading_sheets": "4d7a87840f138b27b39eebb34cf1c5449c3f84e3",
     "course/dsl-course.yml": "296e054e30d8ee0978ac4e0b70e1740c622577ad",
-    ".system/assignments.lock.yml": "dc63708829a478afa9ca8d95c06a47cf7196ce98"
+    ".system/assignments.lock.yml": "b9570091bea5546183fcfae00ccb8caea1ee09f0"
   },
   "course": {
     "org": "hertie-dsl-demo-course-e1234",
@@ -377,10 +377,10 @@
       "slug": "assignment-1",
       "title": "Linear regression from scratch",
       "template": "assignment-1-f2025",
-      "state": "open",
+      "state": "marking",
       "handout": "2025-09-23T14:00:00+02:00",
-      "due": "2027-08-01T23:59:00+02:00",
-      "grading_cutoff_datetime": "2027-08-11T23:59:00+02:00",
+      "due": "2025-10-14T23:59:00+02:00",
+      "grading_cutoff_datetime": "2025-10-24T23:59:00+02:00",
       "solution_shown": null,
       "solution_held_until": null,
       "units": 1,
@@ -423,10 +423,10 @@
       "slug": "assignment-2",
       "title": "Hackathon showcase",
       "template": "assignment-2-f2025",
-      "state": "open",
+      "state": "marking",
       "handout": "2025-10-21T14:00:00+02:00",
-      "due": "2027-08-01T23:59:00+02:00",
-      "grading_cutoff_datetime": "2027-08-11T23:59:00+02:00",
+      "due": "2025-11-11T23:59:00+01:00",
+      "grading_cutoff_datetime": "2025-11-21T23:59:00+01:00",
       "solution_shown": null,
       "solution_held_until": null,
       "units": 1,
@@ -469,10 +469,10 @@
       "slug": "assignment-3",
       "title": "Group project",
       "template": "assignment-3-f2025",
-      "state": "open",
+      "state": "marking",
       "handout": "2025-10-28T14:00:00+01:00",
-      "due": "2027-08-01T23:59:00+02:00",
-      "grading_cutoff_datetime": "2027-08-11T23:59:00+02:00",
+      "due": "2025-12-09T23:59:00+01:00",
+      "grading_cutoff_datetime": "2025-12-19T23:59:00+01:00",
       "solution_shown": null,
       "solution_held_until": null,
       "units": 1,
@@ -524,7 +524,7 @@
   },
   "site": {
     "url": "https://hertie-dsl-demo-f2025.github.io",
-    "last_update": "2026-09-30T10:06:12+00:00",
+    "last_update": "2026-09-30T10:09:45+00:00",
     "stale": false
   },
   "operations": []
