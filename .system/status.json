@@ -377,7 +377,7 @@
       "slug": "assignment-1",
       "title": "Linear regression from scratch",
       "template": "assignment-1-f2025",
-      "state": "marking",
+      "state": "returned",
       "handout": "2025-09-23T14:00:00+02:00",
       "due": "2025-10-14T23:59:00+02:00",
       "grading_cutoff_datetime": "2025-10-24T23:59:00+02:00",
@@ -390,7 +390,7 @@
         "filled": 1,
         "total": 1
       },
-      "returned": false,
+      "returned": true,
       "problem": false,
       "settings": {
         "team_formation": {
@@ -423,7 +423,7 @@
       "slug": "assignment-2",
       "title": "Hackathon showcase",
       "template": "assignment-2-f2025",
-      "state": "marking",
+      "state": "returned",
       "handout": "2025-10-21T14:00:00+02:00",
       "due": "2025-11-11T23:59:00+01:00",
       "grading_cutoff_datetime": "2025-11-21T23:59:00+01:00",
@@ -436,7 +436,7 @@
         "filled": 1,
         "total": 1
       },
-      "returned": false,
+      "returned": true,
       "problem": false,
       "settings": {
         "team_formation": {
@@ -469,7 +469,7 @@
       "slug": "assignment-3",
       "title": "Group project",
       "template": "assignment-3-f2025",
-      "state": "marking",
+      "state": "returned",
       "handout": "2025-10-28T14:00:00+01:00",
       "due": "2025-12-09T23:59:00+01:00",
       "grading_cutoff_datetime": "2025-12-19T23:59:00+01:00",
@@ -482,7 +482,7 @@
         "filled": 1,
         "total": 1
       },
-      "returned": false,
+      "returned": true,
       "problem": false,
       "settings": {
         "team_formation": {
@@ -529,11 +529,11 @@
   },
   "operations": [
     {
-      "run_id": 36700999769,
+      "run_id": 36701115644,
       "op": "grades.return",
-      "conclusion": "previewed",
-      "summary": "Preview: 1 marks repo would be updated and 1 email sent.",
-      "finished": "2026-09-30T10:12:58Z"
+      "conclusion": "done",
+      "summary": "Marks returned: 1 marks repo updated, 1 email sent.",
+      "finished": "2026-09-30T10:14:22Z"
     }
   ]
 }
