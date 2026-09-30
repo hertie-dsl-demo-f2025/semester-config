@@ -23,13 +23,14 @@ submissions:
       completion: ran-clean
       checked: 2026-09-30T12:11+02:00
     adjustment_individual:
-    feedback_individual:
+    feedback_individual: |
+      Clear structure and a careful evaluation; the discussion of limitations could go further.
     notes_not_shared_with_students:
     score_individual:           # yours: the question names and maxima come from grading_config.yml
-      Prototype:                # /40
-      Demo:                     # /30
-      Writeup:                  # /30
+      Prototype: 31             # /40
+      Demo: 26                  # /30
+      Writeup: 21               # /30
     feedback_per_question:
-      Prototype:
-      Demo:
-      Writeup:
+      Prototype: 'Prototype: correct approach; tighten the write-up.'
+      Demo: 'Demo: correct approach; tighten the write-up.'
+      Writeup: 'Writeup: correct approach; tighten the write-up.'
