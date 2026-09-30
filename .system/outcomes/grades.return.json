@@ -1,22 +1,23 @@
 {
   "actor": "henrycgbaker",
   "block": "",
-  "conclusion": "previewed",
+  "conclusion": "done",
   "counts": {
-    "emails": 0,
+    "emails": 1,
     "failed": 0,
     "gradebooks": 1,
     "held": 0,
+    "receipt_notes": 3,
     "unknown": 0
   },
   "details": [],
-  "finished": "2026-09-30T10:12:58Z",
+  "finished": "2026-09-30T10:14:22Z",
   "op": "grades.return",
   "people": [],
-  "preview": true,
+  "preview": false,
   "reasons": [],
-  "run_id": 36700999769,
+  "run_id": 36701115644,
   "schema": "dsl.outcome/1",
-  "started": "2026-09-30T10:12:51Z",
-  "summary": "Preview: 1 marks repo would be updated and 1 email sent."
+  "started": "2026-09-30T10:14:01Z",
+  "summary": "Marks returned: 1 marks repo updated, 1 email sent."
 }
