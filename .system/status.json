@@ -116,19 +116,35 @@
       "K1": "done",
       "K2": "done",
       "K3": "todo",
-      "K4": "done",
+      "K4": "problem",
       "K5": "todo",
       "K6": "done",
       "K7": "todo"
     },
     "stage_why": {
       "K3": "No instructor is declared in instructors.yml yet.",
+      "K4": "1 problem needs fixing.",
       "K5": "1 student has not been sent a code yet.",
       "K7": "Not archived yet; the schedule archives it on Wed 1 Sep."
     },
     "archive_date": "2027-09-01"
   },
-  "problems": [],
+  "problems": [
+    {
+      "id": "number:lecture:syllabus",
+      "scope": "semester",
+      "stage": "K4",
+      "text": "Give syllabus a number.",
+      "stops": "Its rows show no number until then.",
+      "fix": {
+        "repo": "hertie-dsl-demo-f2025/semester-config",
+        "path": "schedule.yml",
+        "line": 16,
+        "screen": "schedule",
+        "entry": "syllabus"
+      }
+    }
+  ],
   "this_week": [],
   "releases": [
     {
@@ -136,7 +152,7 @@
       "when": "2025-09-01T09:00:00+02:00",
       "kind": "lecture",
       "kind_inferred": true,
-      "number": 1,
+      "number": null,
       "title": "",
       "state": "released",
       "source": {
@@ -375,6 +391,7 @@
   "assignments": [
     {
       "slug": "assignment-1",
+      "number": 1,
       "title": "Linear regression from scratch",
       "template": "assignment-1-f2025",
       "state": "returned",
@@ -421,6 +438,7 @@
     },
     {
       "slug": "assignment-2",
+      "number": 2,
       "title": "Hackathon showcase",
       "template": "assignment-2-f2025",
       "state": "returned",
@@ -467,6 +485,7 @@
     },
     {
       "slug": "assignment-3",
+      "number": 3,
       "title": "Group project",
       "template": "assignment-3-f2025",
       "state": "returned",
