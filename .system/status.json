@@ -1,7 +1,7 @@
 {
   "schema": "dsl.status/1",
   "inputs": {
-    "schedule.yml": "c7788c9e6e256a34c1529695e83fc883132639cb",
+    "schedule.yml": "fd27e9e2967b4b594cfa54658dffc18e42c23441",
     "assignments.yml": "2b83ad40f234ad42d02a0d5b5bb73a5945e889ec",
     "instructors.yml": "d55119f022a5812d287fae6f82c14c5e473cde21",
     "students.csv": "b88a2b57b4011521ab5a25bfb8734a3f64a976cf",
@@ -195,7 +195,7 @@
       {
         "repo": "assignment-2-f2026",
         "slug": "assignment-2-f2026",
-        "state": "todo",
+        "state": "ready",
         "starter": "derived"
       },
       {
@@ -303,14 +303,6 @@
         "entry": "assignment-2-f2025"
       },
       {
-        "id": "template:assignment-2-f2026:starter",
-        "kind": "template",
-        "repo": "assignment-2-f2026",
-        "text": "Derive has not been run yet.",
-        "screen": "template",
-        "entry": "assignment-2-f2026"
-      },
-      {
         "id": "template:assignment-4-f2026:starter",
         "kind": "template",
         "repo": "assignment-4-f2026",
@@ -399,7 +391,7 @@
       "fix": {
         "repo": "hertie-dsl-demo-f2025/semester-config",
         "path": "schedule.yml",
-        "line": 23,
+        "line": 24,
         "screen": "schedule",
         "entry": "session-01"
       }
@@ -411,7 +403,7 @@
       "id": "syllabus",
       "when": "2025-09-01T09:00:00+02:00",
       "kind": "lecture",
-      "kind_inferred": true,
+      "kind_inferred": false,
       "number": 1,
       "title": "",
       "state": "released",
@@ -803,8 +795,8 @@
   },
   "site": {
     "url": "https://hertie-dsl-demo-f2025.github.io",
-    "last_update": "2026-09-30T10:09:45+00:00",
-    "stale": true
+    "last_update": "2026-10-01T18:04:05+00:00",
+    "stale": false
   },
   "operations": [
     {
