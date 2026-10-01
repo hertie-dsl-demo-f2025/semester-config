@@ -15,6 +15,7 @@ releases:
   syllabus:
     number: 1
     event_datetime: 2025-09-01T09:00
+    kind: lecture
     deploy:
       - course_source_repo: course-materials-f2025
         course_source_path: SYLLABUS.pdf
