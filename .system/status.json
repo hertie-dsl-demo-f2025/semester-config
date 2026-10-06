@@ -14,7 +14,6 @@
     "org": "hertie-dsl-demo-course-e1234",
     "name": "Deep Learning (Demo)",
     "code": "E1234",
-    "app_installed": null,
     "stages": {
       "C1": "done",
       "C2": "done",
@@ -401,7 +400,6 @@
     "weeks": 15,
     "live": true,
     "ended": true,
-    "app_installed": null,
     "stages": {
       "K1": "done",
       "K2": "done",
@@ -441,7 +439,6 @@
       "id": "syllabus",
       "when": "2025-09-01T09:00:00+02:00",
       "kind": "lecture",
-      "kind_inferred": false,
       "number": 1,
       "title": "",
       "state": "released",
@@ -453,7 +450,6 @@
         "repo": "materials",
         "path": "SYLLABUS.pdf"
       },
-      "copies": 1,
       "show_on_site": true,
       "tbc": false
     },
@@ -461,7 +457,6 @@
       "id": "session-01",
       "when": "2025-09-09T10:00:00+02:00",
       "kind": "lecture",
-      "kind_inferred": true,
       "number": 1,
       "title": "",
       "state": "released",
@@ -473,7 +468,6 @@
         "repo": "materials",
         "path": "lectures/01_deep-learning-in-public-policy"
       },
-      "copies": 3,
       "show_on_site": true,
       "tbc": false
     },
@@ -481,7 +475,6 @@
       "id": "session-02",
       "when": "2025-09-16T10:00:00+02:00",
       "kind": "lecture",
-      "kind_inferred": true,
       "number": 2,
       "title": "",
       "state": "released",
@@ -493,7 +486,6 @@
         "repo": "materials",
         "path": "lectures/02_deep-neural-networks-1"
       },
-      "copies": 3,
       "show_on_site": true,
       "tbc": false
     },
@@ -501,7 +493,6 @@
       "id": "session-03",
       "when": "2025-09-23T10:00:00+02:00",
       "kind": "lecture",
-      "kind_inferred": true,
       "number": 3,
       "title": "",
       "state": "released",
@@ -513,7 +504,6 @@
         "repo": "materials",
         "path": "lectures/03_deep-neural-networks-2"
       },
-      "copies": 3,
       "show_on_site": true,
       "tbc": false
     },
@@ -521,7 +511,6 @@
       "id": "session-04",
       "when": "2025-09-30T10:00:00+02:00",
       "kind": "lecture",
-      "kind_inferred": true,
       "number": 4,
       "title": "",
       "state": "released",
@@ -533,7 +522,6 @@
         "repo": "materials",
         "path": "lectures/04_computer-vision-1-cnns"
       },
-      "copies": 3,
       "show_on_site": true,
       "tbc": false
     },
@@ -541,7 +529,6 @@
       "id": "session-05",
       "when": "2025-10-07T10:00:00+02:00",
       "kind": "lecture",
-      "kind_inferred": true,
       "number": 5,
       "title": "",
       "state": "released",
@@ -553,7 +540,6 @@
         "repo": "materials",
         "path": "lectures/05_computer-vision-2-modern-cnns"
       },
-      "copies": 3,
       "show_on_site": true,
       "tbc": false
     },
@@ -561,7 +547,6 @@
       "id": "session-06",
       "when": "2025-10-14T10:00:00+02:00",
       "kind": "lecture",
-      "kind_inferred": true,
       "number": 6,
       "title": "",
       "state": "released",
@@ -573,7 +558,6 @@
         "repo": "materials",
         "path": "lectures/06_sequence-methods-and-time-series"
       },
-      "copies": 2,
       "show_on_site": true,
       "tbc": false
     },
@@ -581,7 +565,6 @@
       "id": "session-07",
       "when": "2025-10-21T10:00:00+02:00",
       "kind": "lecture",
-      "kind_inferred": true,
       "number": 7,
       "title": "",
       "state": "released",
@@ -593,7 +576,6 @@
         "repo": "materials",
         "path": "lectures/07_natural-language-processing-1"
       },
-      "copies": 1,
       "show_on_site": true,
       "tbc": false
     },
@@ -601,7 +583,6 @@
       "id": "session-08",
       "when": "2025-10-28T10:00:00+01:00",
       "kind": "lecture",
-      "kind_inferred": true,
       "number": 8,
       "title": "",
       "state": "released",
@@ -613,7 +594,6 @@
         "repo": "materials",
         "path": "lectures/08_nlp-2-encoder-decoder-and-attention"
       },
-      "copies": 2,
       "show_on_site": true,
       "tbc": false
     },
@@ -621,7 +601,6 @@
       "id": "session-09",
       "when": "2025-11-04T10:00:00+01:00",
       "kind": "lab",
-      "kind_inferred": true,
       "number": 9,
       "title": "",
       "state": "released",
@@ -633,7 +612,6 @@
         "repo": "materials",
         "path": "labs/09_further-topics"
       },
-      "copies": 2,
       "show_on_site": true,
       "tbc": false
     },
@@ -641,7 +619,6 @@
       "id": "session-10",
       "when": "2025-11-11T10:00:00+01:00",
       "kind": "readings",
-      "kind_inferred": true,
       "number": 10,
       "title": "",
       "state": "released",
@@ -653,7 +630,6 @@
         "repo": "materials",
         "path": "readings/10_policy-approaches-and-responsible-implementation"
       },
-      "copies": 1,
       "show_on_site": true,
       "tbc": false
     },
@@ -661,7 +637,6 @@
       "id": "session-11",
       "when": "2025-11-18T10:00:00+01:00",
       "kind": "lab",
-      "kind_inferred": true,
       "number": 11,
       "title": "",
       "state": "released",
@@ -673,7 +648,6 @@
         "repo": "materials",
         "path": "labs/11_deep-learning-in-practice"
       },
-      "copies": 2,
       "show_on_site": true,
       "tbc": false
     }
