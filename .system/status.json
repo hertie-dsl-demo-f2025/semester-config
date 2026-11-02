@@ -223,6 +223,36 @@
         "repo": "assignment-8-f2026",
         "state": "todo",
         "starter": "derived"
+      },
+      {
+        "repo": "assignment-tmp-ho-1",
+        "state": "ready",
+        "starter": "none"
+      },
+      {
+        "repo": "assignment-tmp-ho-2",
+        "state": "ready",
+        "starter": "none"
+      },
+      {
+        "repo": "assignment-tmp-ho-3",
+        "state": "ready",
+        "starter": "none"
+      },
+      {
+        "repo": "assignment-tmp-ho-4",
+        "state": "ready",
+        "starter": "none"
+      },
+      {
+        "repo": "assignment-tmp-ho-5",
+        "state": "ready",
+        "starter": "none"
+      },
+      {
+        "repo": "assignment-tmp-ho-6",
+        "state": "ready",
+        "starter": "none"
       }
     ],
     "semesters": [
