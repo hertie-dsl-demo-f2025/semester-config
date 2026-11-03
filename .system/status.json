@@ -7,7 +7,7 @@
     "students.csv": "b88a2b57b4011521ab5a25bfb8734a3f64a976cf",
     "teams.csv": "55074c573b38d4676c1118461bc00b171270796b",
     "grading_sheets": "63ce93fb9a3a36cde7d8233f7bb4b0685e7697ac",
-    "course/dsl-course.yml": "295f2c719677cbbd04f4cf0988eb79cbd30f1719",
+    "course/dsl-course.yml": "595f7dcb135182e039b74e9706bff1947cf8570d",
     ".system/assignments.lock.yml": "199a2d82a6cffdc590a912cb7dc69d797620d04c"
   },
   "horizon": {
@@ -782,7 +782,7 @@
   },
   "site": {
     "url": "https://hertie-dsl-demo-f2025.github.io",
-    "last_update": "2026-11-02T16:33:45+00:00",
+    "last_update": "2026-11-03T11:48:39+00:00",
     "stale": false
   },
   "operations": [
