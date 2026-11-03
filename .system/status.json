@@ -1,14 +1,13 @@
 {
   "schema": "dsl.status/1",
   "inputs": {
-    "schedule.yml": "fd27e9e2967b4b594cfa54658dffc18e42c23441",
-    "assignments.yml": "2b83ad40f234ad42d02a0d5b5bb73a5945e889ec",
-    "instructors.yml": "d55119f022a5812d287fae6f82c14c5e473cde21",
-    "students.csv": "b88a2b57b4011521ab5a25bfb8734a3f64a976cf",
-    "teams.csv": "55074c573b38d4676c1118461bc00b171270796b",
+    "schedule.yml": "420bfff41f1b65086615a549bb0a5e51ce8afe78",
+    "semester.yml": "8c6c9ff18e06809fec77750a9b3dcc94ab28e3d7",
+    "students.csv": "d7782c329816e92fac8bc50bfd8c307216a1b456",
+    ".system/roster.csv": "115c9e63ade6f21eec7f6e69b32325b5fc0d3801",
     "grading_sheets": "63ce93fb9a3a36cde7d8233f7bb4b0685e7697ac",
-    "course/dsl-course.yml": "595f7dcb135182e039b74e9706bff1947cf8570d",
-    ".system/assignments.lock.yml": "199a2d82a6cffdc590a912cb7dc69d797620d04c"
+    "course/course.yml": "200682c8f1d5e7327f7124ff482bc7aab376c091",
+    ".system/assignments.lock.yml": "03194f9866321dac9f705dcbebf42a569213766f"
   },
   "horizon": {
     "days": 7
@@ -48,55 +47,58 @@
       "missing": null,
       "suggestions": 4
     },
+    "defaults": {
+      "timezone": {
+        "value": "Europe/Berlin",
+        "source": "institution"
+      },
+      "late_window_days": {
+        "value": 10,
+        "source": "course"
+      },
+      "late_penalty_per_day": {
+        "value": "10%",
+        "source": "course"
+      },
+      "max_team_size": {
+        "value": 4,
+        "source": "course"
+      },
+      "assignment_repo_visibility": {
+        "value": "private",
+        "source": "institution"
+      },
+      "archive_grace_days": {
+        "value": 60,
+        "source": "institution"
+      },
+      "materials_repo": {
+        "value": "materials",
+        "source": "institution"
+      },
+      "autosync_released_edits": {
+        "value": false,
+        "source": "institution"
+      },
+      "marks_per_question": {
+        "value": true,
+        "source": "institution"
+      },
+      "team_formation": {
+        "value": "none",
+        "source": "institution"
+      }
+    },
     "materials": [
       {
         "repo": "course-materials-f2025",
         "state": "ready",
         "checks": [
           {
-            "id": "kind_folder",
-            "label": "At least one folder of a content kind",
-            "done": true,
-            "why": null,
-            "need": "needed",
-            "detail": [
-              {
-                "kind": "lecture",
-                "folders": [
-                  "lectures"
-                ]
-              },
-              {
-                "kind": "lab",
-                "folders": [
-                  "labs"
-                ]
-              },
-              {
-                "kind": "readings",
-                "folders": [
-                  "readings"
-                ]
-              },
-              {
-                "kind": "exam",
-                "folders": []
-              },
-              {
-                "kind": "drop-in",
-                "folders": []
-              },
-              {
-                "kind": "other",
-                "folders": []
-              }
-            ]
-          },
-          {
             "id": "syllabus",
             "label": "Syllabus",
             "done": false,
-            "why": "There is no SYLLABUS.md yet.",
+            "why": "SYLLABUS.pdf is not Markdown: copy the weekly plan and paste it in.",
             "need": "suggested"
           },
           {
@@ -112,45 +114,6 @@
         "repo": "course-materials-f2026",
         "state": "ready",
         "checks": [
-          {
-            "id": "kind_folder",
-            "label": "At least one folder of a content kind",
-            "done": true,
-            "why": null,
-            "need": "needed",
-            "detail": [
-              {
-                "kind": "lecture",
-                "folders": [
-                  "lectures"
-                ]
-              },
-              {
-                "kind": "lab",
-                "folders": [
-                  "labs"
-                ]
-              },
-              {
-                "kind": "readings",
-                "folders": [
-                  "readings"
-                ]
-              },
-              {
-                "kind": "exam",
-                "folders": []
-              },
-              {
-                "kind": "drop-in",
-                "folders": []
-              },
-              {
-                "kind": "other",
-                "folders": []
-              }
-            ]
-          },
           {
             "id": "syllabus",
             "label": "Syllabus",
@@ -235,7 +198,7 @@
         "kind": "materials",
         "check": "syllabus",
         "repo": "course-materials-f2025",
-        "text": "There is no SYLLABUS.md yet.",
+        "text": "SYLLABUS.pdf is not Markdown: copy the weekly plan and paste it in.",
         "screen": "materials",
         "entry": "course-materials-f2025",
         "need": "suggested",
@@ -362,7 +325,7 @@
       "K6": "done"
     },
     "stage_why": {
-      "K3": "No instructor is declared in instructors.yml yet.",
+      "K3": "No instructor is declared in semester.yml yet.",
       "K4": "1 problem needs fixing."
     },
     "stage_need": {
@@ -376,12 +339,54 @@
     "verdict": {
       "state": "fixing",
       "problems": 1,
-      "missing": "No instructor is declared in instructors.yml yet.",
+      "missing": "No instructor is declared in semester.yml yet.",
       "suggestions": 0,
       "coming_up": 0
     },
     "todo": [],
     "archive_date": "2027-09-01",
+    "defaults": {
+      "timezone": {
+        "value": "Europe/Berlin",
+        "source": "institution"
+      },
+      "late_window_days": {
+        "value": 10,
+        "source": "course"
+      },
+      "late_penalty_per_day": {
+        "value": "10%",
+        "source": "course"
+      },
+      "max_team_size": {
+        "value": 4,
+        "source": "course"
+      },
+      "assignment_repo_visibility": {
+        "value": "private",
+        "source": "institution"
+      },
+      "archive_grace_days": {
+        "value": 60,
+        "source": "institution"
+      },
+      "materials_repo": {
+        "value": "materials",
+        "source": "institution"
+      },
+      "autosync_released_edits": {
+        "value": false,
+        "source": "institution"
+      },
+      "marks_per_question": {
+        "value": true,
+        "source": "institution"
+      },
+      "team_formation": {
+        "value": "self_select",
+        "source": "semester"
+      }
+    },
     "template_moments": {}
   },
   "problems": [
@@ -395,7 +400,7 @@
       "fix": {
         "repo": "hertie-dsl-demo-f2025/semester-config",
         "path": "schedule.yml",
-        "line": 24,
+        "line": 34,
         "screen": "schedule",
         "entry": "session-01"
       },
@@ -441,6 +446,24 @@
       "tbc": false
     },
     {
+      "id": "session-01-readings",
+      "when": "2025-09-09T10:00:00+02:00",
+      "kind": "readings",
+      "number": null,
+      "title": "",
+      "state": "released",
+      "source": {
+        "repo": "course-materials-f2025",
+        "path": "readings/01_deep-learning-in-public-policy"
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "readings/01_deep-learning-in-public-policy"
+      },
+      "show_on_site": true,
+      "tbc": false
+    },
+    {
       "id": "session-02",
       "when": "2025-09-16T10:00:00+02:00",
       "kind": "lecture",
@@ -454,6 +477,24 @@
       "dest": {
         "repo": "materials",
         "path": "lectures/02_deep-neural-networks-1"
+      },
+      "show_on_site": true,
+      "tbc": false
+    },
+    {
+      "id": "session-02-readings",
+      "when": "2025-09-16T10:00:00+02:00",
+      "kind": "readings",
+      "number": null,
+      "title": "",
+      "state": "released",
+      "source": {
+        "repo": "course-materials-f2025",
+        "path": "readings/02_deep-neural-networks-1"
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "readings/02_deep-neural-networks-1"
       },
       "show_on_site": true,
       "tbc": false
@@ -477,6 +518,24 @@
       "tbc": false
     },
     {
+      "id": "session-03-readings",
+      "when": "2025-09-23T10:00:00+02:00",
+      "kind": "readings",
+      "number": null,
+      "title": "",
+      "state": "released",
+      "source": {
+        "repo": "course-materials-f2025",
+        "path": "readings/03_deep-neural-networks-2"
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "readings/03_deep-neural-networks-2"
+      },
+      "show_on_site": true,
+      "tbc": false
+    },
+    {
       "id": "session-04",
       "when": "2025-09-30T10:00:00+02:00",
       "kind": "lecture",
@@ -495,6 +554,24 @@
       "tbc": false
     },
     {
+      "id": "session-04-readings",
+      "when": "2025-09-30T10:00:00+02:00",
+      "kind": "readings",
+      "number": null,
+      "title": "",
+      "state": "released",
+      "source": {
+        "repo": "course-materials-f2025",
+        "path": "readings/04_computer-vision-1-cnns"
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "readings/04_computer-vision-1-cnns"
+      },
+      "show_on_site": true,
+      "tbc": false
+    },
+    {
       "id": "session-05",
       "when": "2025-10-07T10:00:00+02:00",
       "kind": "lecture",
@@ -508,6 +585,24 @@
       "dest": {
         "repo": "materials",
         "path": "lectures/05_computer-vision-2-modern-cnns"
+      },
+      "show_on_site": true,
+      "tbc": false
+    },
+    {
+      "id": "session-05-readings",
+      "when": "2025-10-07T10:00:00+02:00",
+      "kind": "readings",
+      "number": null,
+      "title": "",
+      "state": "released",
+      "source": {
+        "repo": "course-materials-f2025",
+        "path": "readings/05_computer-vision-2-modern-cnns"
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "readings/05_computer-vision-2-modern-cnns"
       },
       "show_on_site": true,
       "tbc": false
@@ -567,6 +662,24 @@
       "tbc": false
     },
     {
+      "id": "session-08-readings",
+      "when": "2025-10-28T10:00:00+01:00",
+      "kind": "readings",
+      "number": null,
+      "title": "",
+      "state": "released",
+      "source": {
+        "repo": "course-materials-f2025",
+        "path": "readings/08_nlp-2-encoder-decoder-and-attention"
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "readings/08_nlp-2-encoder-decoder-and-attention"
+      },
+      "show_on_site": true,
+      "tbc": false
+    },
+    {
       "id": "session-09",
       "when": "2025-11-04T10:00:00+01:00",
       "kind": "lab",
@@ -580,6 +693,24 @@
       "dest": {
         "repo": "materials",
         "path": "labs/09_further-topics"
+      },
+      "show_on_site": true,
+      "tbc": false
+    },
+    {
+      "id": "session-09-readings",
+      "when": "2025-11-04T10:00:00+01:00",
+      "kind": "readings",
+      "number": null,
+      "title": "",
+      "state": "released",
+      "source": {
+        "repo": "course-materials-f2025",
+        "path": "readings/09_further-topics"
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "readings/09_further-topics"
       },
       "show_on_site": true,
       "tbc": false
@@ -619,6 +750,24 @@
       },
       "show_on_site": true,
       "tbc": false
+    },
+    {
+      "id": "session-11-readings",
+      "when": "2025-11-18T10:00:00+01:00",
+      "kind": "readings",
+      "number": null,
+      "title": "",
+      "state": "released",
+      "source": {
+        "repo": "course-materials-f2025",
+        "path": "readings/11_deep-learning-in-practice"
+      },
+      "dest": {
+        "repo": "materials",
+        "path": "readings/11_deep-learning-in-practice"
+      },
+      "show_on_site": true,
+      "tbc": false
     }
   ],
   "assignments": [
@@ -646,7 +795,7 @@
       "settings": {
         "team_formation": {
           "value": "self_select",
-          "source": "institution"
+          "source": "semester"
         },
         "max_team_size": {
           "value": 4,
@@ -660,12 +809,16 @@
           "value": "10%",
           "source": "course"
         },
-        "visibility": {
+        "assignment_repo_visibility": {
           "value": "private",
           "source": "institution"
         },
         "submit_url": {
           "value": "",
+          "source": "institution"
+        },
+        "marks_per_question": {
+          "value": true,
           "source": "institution"
         }
       },
@@ -695,7 +848,7 @@
       "settings": {
         "team_formation": {
           "value": "self_select",
-          "source": "institution"
+          "source": "semester"
         },
         "max_team_size": {
           "value": 4,
@@ -709,12 +862,16 @@
           "value": "10%",
           "source": "course"
         },
-        "visibility": {
+        "assignment_repo_visibility": {
           "value": "private",
           "source": "institution"
         },
         "submit_url": {
           "value": "",
+          "source": "institution"
+        },
+        "marks_per_question": {
+          "value": true,
           "source": "institution"
         }
       },
@@ -744,7 +901,7 @@
       "settings": {
         "team_formation": {
           "value": "self_select",
-          "source": "institution"
+          "source": "semester"
         },
         "max_team_size": {
           "value": 4,
@@ -758,12 +915,16 @@
           "value": "10%",
           "source": "course"
         },
-        "visibility": {
+        "assignment_repo_visibility": {
           "value": "private",
           "source": "institution"
         },
         "submit_url": {
           "value": "",
+          "source": "institution"
+        },
+        "marks_per_question": {
+          "value": true,
           "source": "institution"
         }
       },
@@ -782,7 +943,7 @@
   },
   "site": {
     "url": "https://hertie-dsl-demo-f2025.github.io",
-    "last_update": "2026-11-03T11:48:39+00:00",
+    "last_update": "2026-11-03T16:00:27+00:00",
     "stale": false
   },
   "operations": [
