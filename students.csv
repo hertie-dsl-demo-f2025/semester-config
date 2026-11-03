@@ -1,5 +1,5 @@
-hertie_email,name,github_handle,github_id,enrol_code,role,code_sent_at
-lena.fischer@students.demo.hertie-school.org,Lena Fischer,,,dsl-h5eq2j,enrolled,2026-09-26T10:10:56+00:00
-omar.haddad@students.demo.hertie-school.org,Omar Haddad,,,dsl-gb3ghz,enrolled,2026-09-26T10:10:56+00:00
-sofia.marchetti@students.demo.hertie-school.org,Sofia Marchetti,,,dsl-vyzvc3,enrolled,2026-09-26T10:10:56+00:00
-h.baker+testuser@hertie-school.org,Test User,test-user-dsl,294480914,dsl-vt2aw3,,
+email,name,role,team:3
+lena.fischer@students.demo.hertie-school.org,Lena Fischer,enrolled,
+omar.haddad@students.demo.hertie-school.org,Omar Haddad,enrolled,
+sofia.marchetti@students.demo.hertie-school.org,Sofia Marchetti,enrolled,
+h.baker+testuser@hertie-school.org,Test User,,team-alpha
