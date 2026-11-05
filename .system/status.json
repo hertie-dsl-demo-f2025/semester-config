@@ -477,7 +477,7 @@
       "scope": "semester",
       "stage": "K4",
       "kind": "NOT_MIGRATED",
-      "text": "Schedule entry session-10: replaced by reading_list in 0.12.0.",
+      "text": "Schedule entry session-10: replaced by reading_list in 0.11.1.",
       "stops": "Ignored, so the row shows no reading list.",
       "fix": {
         "repo": "hertie-dsl-demo-f2025/semester-config",
@@ -494,7 +494,7 @@
       "scope": "semester",
       "stage": "K4",
       "kind": "NOT_MIGRATED",
-      "text": "Schedule entry session-01-readings: replaced by reading_list in 0.12.0.",
+      "text": "Schedule entry session-01-readings: replaced by reading_list in 0.11.1.",
       "stops": "Ignored, so the row shows no reading list.",
       "fix": {
         "repo": "hertie-dsl-demo-f2025/semester-config",
@@ -511,7 +511,7 @@
       "scope": "semester",
       "stage": "K4",
       "kind": "NOT_MIGRATED",
-      "text": "Schedule entry session-02-readings: replaced by reading_list in 0.12.0.",
+      "text": "Schedule entry session-02-readings: replaced by reading_list in 0.11.1.",
       "stops": "Ignored, so the row shows no reading list.",
       "fix": {
         "repo": "hertie-dsl-demo-f2025/semester-config",
@@ -528,7 +528,7 @@
       "scope": "semester",
       "stage": "K4",
       "kind": "NOT_MIGRATED",
-      "text": "Schedule entry session-03-readings: replaced by reading_list in 0.12.0.",
+      "text": "Schedule entry session-03-readings: replaced by reading_list in 0.11.1.",
       "stops": "Ignored, so the row shows no reading list.",
       "fix": {
         "repo": "hertie-dsl-demo-f2025/semester-config",
@@ -545,7 +545,7 @@
       "scope": "semester",
       "stage": "K4",
       "kind": "NOT_MIGRATED",
-      "text": "Schedule entry session-04-readings: replaced by reading_list in 0.12.0.",
+      "text": "Schedule entry session-04-readings: replaced by reading_list in 0.11.1.",
       "stops": "Ignored, so the row shows no reading list.",
       "fix": {
         "repo": "hertie-dsl-demo-f2025/semester-config",
@@ -562,7 +562,7 @@
       "scope": "semester",
       "stage": "K4",
       "kind": "NOT_MIGRATED",
-      "text": "Schedule entry session-05-readings: replaced by reading_list in 0.12.0.",
+      "text": "Schedule entry session-05-readings: replaced by reading_list in 0.11.1.",
       "stops": "Ignored, so the row shows no reading list.",
       "fix": {
         "repo": "hertie-dsl-demo-f2025/semester-config",
@@ -579,7 +579,7 @@
       "scope": "semester",
       "stage": "K4",
       "kind": "NOT_MIGRATED",
-      "text": "Schedule entry session-08-readings: replaced by reading_list in 0.12.0.",
+      "text": "Schedule entry session-08-readings: replaced by reading_list in 0.11.1.",
       "stops": "Ignored, so the row shows no reading list.",
       "fix": {
         "repo": "hertie-dsl-demo-f2025/semester-config",
