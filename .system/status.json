@@ -331,7 +331,7 @@
     },
     "stage_why": {
       "K3": "No instructor is declared in semester.yml yet.",
-      "K4": "1 problem needs fixing."
+      "K4": "8 problems need fixing."
     },
     "stage_need": {
       "K1": "needed",
@@ -343,7 +343,7 @@
     },
     "verdict": {
       "state": "fixing",
-      "problems": 1,
+      "problems": 8,
       "missing": "No instructor is declared in semester.yml yet.",
       "suggestions": 0,
       "coming_up": 0
@@ -400,6 +400,125 @@
     "template_moments": {}
   },
   "problems": [
+    {
+      "id": "schedule:session-10:NOT_MIGRATED",
+      "scope": "semester",
+      "stage": "K4",
+      "kind": "NOT_MIGRATED",
+      "text": "Schedule entry session-10: replaced by reading_list in 0.12.0.",
+      "stops": "Ignored, so the row shows no reading list.",
+      "fix": {
+        "repo": "hertie-dsl-demo-f2025/semester-config",
+        "path": "schedule.yml",
+        "line": 113,
+        "screen": "schedule",
+        "entry": "session-10"
+      },
+      "release": "session-10",
+      "bites": "now"
+    },
+    {
+      "id": "schedule:session-01-readings:NOT_MIGRATED",
+      "scope": "semester",
+      "stage": "K4",
+      "kind": "NOT_MIGRATED",
+      "text": "Schedule entry session-01-readings: replaced by reading_list in 0.12.0.",
+      "stops": "Ignored, so the row shows no reading list.",
+      "fix": {
+        "repo": "hertie-dsl-demo-f2025/semester-config",
+        "path": "schedule.yml",
+        "line": 142,
+        "screen": "schedule",
+        "entry": "session-01-readings"
+      },
+      "release": "session-01-readings",
+      "bites": "now"
+    },
+    {
+      "id": "schedule:session-02-readings:NOT_MIGRATED",
+      "scope": "semester",
+      "stage": "K4",
+      "kind": "NOT_MIGRATED",
+      "text": "Schedule entry session-02-readings: replaced by reading_list in 0.12.0.",
+      "stops": "Ignored, so the row shows no reading list.",
+      "fix": {
+        "repo": "hertie-dsl-demo-f2025/semester-config",
+        "path": "schedule.yml",
+        "line": 163,
+        "screen": "schedule",
+        "entry": "session-02-readings"
+      },
+      "release": "session-02-readings",
+      "bites": "now"
+    },
+    {
+      "id": "schedule:session-03-readings:NOT_MIGRATED",
+      "scope": "semester",
+      "stage": "K4",
+      "kind": "NOT_MIGRATED",
+      "text": "Schedule entry session-03-readings: replaced by reading_list in 0.12.0.",
+      "stops": "Ignored, so the row shows no reading list.",
+      "fix": {
+        "repo": "hertie-dsl-demo-f2025/semester-config",
+        "path": "schedule.yml",
+        "line": 176,
+        "screen": "schedule",
+        "entry": "session-03-readings"
+      },
+      "release": "session-03-readings",
+      "bites": "now"
+    },
+    {
+      "id": "schedule:session-04-readings:NOT_MIGRATED",
+      "scope": "semester",
+      "stage": "K4",
+      "kind": "NOT_MIGRATED",
+      "text": "Schedule entry session-04-readings: replaced by reading_list in 0.12.0.",
+      "stops": "Ignored, so the row shows no reading list.",
+      "fix": {
+        "repo": "hertie-dsl-demo-f2025/semester-config",
+        "path": "schedule.yml",
+        "line": 191,
+        "screen": "schedule",
+        "entry": "session-04-readings"
+      },
+      "release": "session-04-readings",
+      "bites": "now"
+    },
+    {
+      "id": "schedule:session-05-readings:NOT_MIGRATED",
+      "scope": "semester",
+      "stage": "K4",
+      "kind": "NOT_MIGRATED",
+      "text": "Schedule entry session-05-readings: replaced by reading_list in 0.12.0.",
+      "stops": "Ignored, so the row shows no reading list.",
+      "fix": {
+        "repo": "hertie-dsl-demo-f2025/semester-config",
+        "path": "schedule.yml",
+        "line": 213,
+        "screen": "schedule",
+        "entry": "session-05-readings"
+      },
+      "release": "session-05-readings",
+      "bites": "now"
+    },
+    {
+      "id": "schedule:session-08-readings:NOT_MIGRATED",
+      "scope": "semester",
+      "stage": "K4",
+      "kind": "NOT_MIGRATED",
+      "text": "Schedule entry session-08-readings: replaced by reading_list in 0.12.0.",
+      "stops": "Ignored, so the row shows no reading list.",
+      "fix": {
+        "repo": "hertie-dsl-demo-f2025/semester-config",
+        "path": "schedule.yml",
+        "line": 235,
+        "screen": "schedule",
+        "entry": "session-08-readings"
+      },
+      "release": "session-08-readings",
+      "bites": "now"
+    },
     {
       "id": "number:lecture:1",
       "scope": "semester",
@@ -471,7 +590,8 @@
         "path": "readings/01_deep-learning-in-public-policy"
       },
       "show_on_site": true,
-      "tbc": false
+      "tbc": false,
+      "reading_list": null
     },
     {
       "id": "session-02",
@@ -507,7 +627,8 @@
         "path": "readings/02_deep-neural-networks-1"
       },
       "show_on_site": true,
-      "tbc": false
+      "tbc": false,
+      "reading_list": null
     },
     {
       "id": "session-03",
@@ -543,7 +664,8 @@
         "path": "readings/03_deep-neural-networks-2"
       },
       "show_on_site": true,
-      "tbc": false
+      "tbc": false,
+      "reading_list": null
     },
     {
       "id": "session-04",
@@ -579,7 +701,8 @@
         "path": "readings/04_computer-vision-1-cnns"
       },
       "show_on_site": true,
-      "tbc": false
+      "tbc": false,
+      "reading_list": null
     },
     {
       "id": "session-05",
@@ -615,7 +738,8 @@
         "path": "readings/05_computer-vision-2-modern-cnns"
       },
       "show_on_site": true,
-      "tbc": false
+      "tbc": false,
+      "reading_list": null
     },
     {
       "id": "session-06",
@@ -687,7 +811,8 @@
         "path": "readings/08_nlp-2-encoder-decoder-and-attention"
       },
       "show_on_site": true,
-      "tbc": false
+      "tbc": false,
+      "reading_list": null
     },
     {
       "id": "session-09",
@@ -723,7 +848,8 @@
         "path": "readings/09_further-topics"
       },
       "show_on_site": true,
-      "tbc": false
+      "tbc": false,
+      "reading_list": null
     },
     {
       "id": "session-10",
@@ -741,7 +867,8 @@
         "path": "readings/10_policy-approaches-and-responsible-implementation"
       },
       "show_on_site": true,
-      "tbc": false
+      "tbc": false,
+      "reading_list": null
     },
     {
       "id": "session-11",
@@ -777,7 +904,8 @@
         "path": "readings/11_deep-learning-in-practice"
       },
       "show_on_site": true,
-      "tbc": false
+      "tbc": false,
+      "reading_list": null
     }
   ],
   "assignments": [
